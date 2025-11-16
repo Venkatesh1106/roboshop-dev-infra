@@ -1,4 +1,3 @@
-
 # Create EC2 instance
 resource "aws_instance" "catalogue" {
     ami = local.ami_id
